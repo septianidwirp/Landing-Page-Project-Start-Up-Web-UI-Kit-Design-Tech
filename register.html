@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelompok 4 Final Project 2</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/login&reg.css">
+    
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+
+<body class="register-page">
+    <header>
+        <div class="">
+            <div class="row justify-content-between">
+                <div class="col-6 col-sm-3 my-auto mx-sm-auto ps-5 fs-4">
+                    <a href="index.html" class="btn btn-primary ">Back</a>
+                </div>
+                <div class="col-6 col-sm-3 my-auto mx-sm-auto pe-5 text-center">
+                    <a href="login.html" class="btn btn-outline-primary fw-semibold rounded-5 px-4">Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container text-center px-5 py-3 my-3 mx-auto register">
+        <div class="glass p-3 p-lg-5 rounded-5">
+            <h1 class="fw-bold mb-3">Register</h1>
+            <hr class="text-primary">
+            <form class="px-0 px-lg-5" id="formRegister" onsubmit="store(); return false">
+                <div class="mb-3 mx-0 mx-lg-5">
+                    <label for="username" class="form-label fw-bold">Username</label>
+                    <input type="text" class="form-control mb-2" id="username" placeholder="enter your name">
+                    <span class="text-danger" id="usernameError"></span>
+                </div>
+                <div class="mb-3 mx-0 mx-lg-5">
+                    <label for="email" class="form-label fw-bold">Email</label>
+                    <input type="email" class="form-control mb-2" id="email" placeholder="enter your email">
+                    <span class="text-danger" id="emailError"></span>
+                </div>
+                <div class="mb-3 mx-0 mx-lg-5">
+                    <label for="password" class="form-label fw-bold">Password</label>
+                    <input type="password" class="form-control mb-2" id="password" placeholder="enter your password">
+                    <span class="text-danger" id="passwordError"></span>
+                </div>
+                <div class="mb-5 mx-0 mx-lg-5">
+                    <label for="passwordValidation" class="form-label fw-bold">Verify Password</label>
+                    <input type="password" class="form-control mb-2" id="passwordValidation" placeholder="enter your password again">
+                    <span class="text-danger" id="passwordValidationError"></span>
+                </div>
+                <input type="submit" class="btn btn-outline-primary rounded-5 px-5 fw-bold" value="Register">
+            </form>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
+        <div id="registered" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto text-primary">Sign Up Success</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Successfully!
+            </div>
+        </div>
+    </div>
+
+    <div class="toast-container position-fixed top-0 start-50 translate-middle-x p-3">
+        <div id="errorToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header bg-danger text-white">
+                <strong class="me-auto text-white">Failed</strong>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="errorText">  
+            </div>
+        </div>
+    </div>
+  
+    <script src="js/file.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>

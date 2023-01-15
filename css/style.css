@@ -1,0 +1,285 @@
+
+*{
+    font-family: 'Nunito', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+a .bg-primary{
+    background-color: #234CAD;
+    height: 40px;
+}
+
+.nav-item{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-item:hover{
+    border-bottom: 2px solid #234CAD;
+    transition: all 0.7s;
+}
+
+
+.nav-link.text-primary{
+    color: #234CAD;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.btn-outline-primary{
+    border: 2px solid #234CAD;
+    border-color: #234CAD;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    --bs-btn-hover-color: #234CAD;
+    --bs-btn-hover-bg: #F2F6FF;
+    transition: all 0.5s;
+}
+
+a.btn-primary{
+    background-color: #F2F6FF;
+    border: none;
+    font-weight: 700;
+    color: #234CAD;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+button.btn-primary{
+    background-color: #F2F6FF;
+    border: none;
+    font-weight: 700;
+    color: #234CAD;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+button .navbar-toggler-icon{
+    color: #234CAD;
+}
+
+i.text-primary{
+    color: #234CAD;
+}
+
+button.navbar-toggler{
+    border: none;
+    border-radius: 50%;
+    background-color: #F2F6FF;
+    height: 40px;
+}
+
+.jumbotron{
+    background-color: #F2F6FF;
+    color: #234CAD;
+}
+
+.jumbotron a.btn-outline-primary{
+    font-size: 22px;
+    transition: all 0.5s;
+}
+
+.svg-jumb{
+    position: absolute;
+    height: 45rem;
+    top: 4rem;
+}
+#product{
+    color: #234CAD;
+}
+.judul{
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    height: 168px;
+    width: 340px;
+    left: 675px;
+    top: 108px;
+    
+    
+}
+.col-6 .sub{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #234CAD;
+    height: 52px;
+    width: 304px;
+    left: 675px;
+    top: 301px;
+    
+}
+
+.tombol{
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    border-radius: 32.5px;
+    padding: 15px 40px 14px 41px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.tombol:hover{
+    background-color: #234CAD;
+    color: #FFFFFF;
+}
+
+.row h1{
+    
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #234CAD;
+}
+.p-transform{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    height: 52px;
+    width: 425px;
+    left: 408px;
+    top: 81px;
+    color: #234CAD;
+    
+}
+.rds{
+    background-color: #F2F6FF;
+    height: 575px;
+    width: 575px;
+    left: 0px;
+    top: 0px;
+    border-radius: 60px;
+}    
+
+.input{
+    height: auto;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #F2F6FF;
+    border-radius: 60px;
+}
+
+.bg-btn{
+    background-color: #234CAD;
+    border-radius: 30px;
+}
+
+.kiri{
+    color: #F2F6FF;
+}
+
+strong.text-primary{
+    color: #234CAD;
+}
+
+.footer-list h2{
+    color: #234CAD; 
+    font-size: 30px;
+}
+
+.footer-list p{
+    color: #234CAD; 
+    font-size: 18px;
+}
+
+#about {
+    color: #234CAD;
+    position: inherit;
+}
+
+#pricing {
+    color: #234CAD;
+}
+
+.plan-bg{
+    background: #F2F6FF;
+    border: 2px solid #ffffff;
+    color: #234CAD;
+    border-radius: 60px;
+}
+
+.plan-bg-hovered{
+    border: 2px solid #234CAD;
+    color: #234CAD;
+    border-radius: 60px;
+}
+
+.plan-btn{
+    background-color: #FFFFFF;
+    color: #234CAD;
+    font-weight: 700;
+    font-size: 18px;
+    --bs-btn-hover-color: #234CAD;
+    --bs-btn-hover-bg: #F2F6FF;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 1400px){
+    .svg-jumb{
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .svg-jumb{
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #jumbotron-background{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(../assets/svg/Jumbotron.svg);
+        background-position: 0% 25%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(8px);
+        z-index: -1;
+    }
+    
+    #jumbotron-background #layer{
+        background-color: #F2F6FF;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0.1;
+    }
+    
+    .jumbotron {
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #about {
+        margin-top: -325px !important;
+    }
+    
+    .register-page {
+        background-size: 350px;
+    }
+    
+    .login-page {
+        background-size: 350px;
+    }
+}
+
+
+
+

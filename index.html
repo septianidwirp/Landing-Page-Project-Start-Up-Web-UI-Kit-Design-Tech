@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelompok 4 Final Project 2</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        <!--navbar-->
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <div class="navbar-brand fw-bold text-primary d-none d-lg-block">
+                    <img src="logo/svg/head.svg" alt="" class="">
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars text-primary"></i></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#jumbotron">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#about">About</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link text-primary" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    
+                    <form class="d-flex" role="search" id="userNav">
+                        <a href="login.html" class="btn btn-outline-primary fw-semibold rounded-5 px-4 me-2">Login</a>
+                        <a href="register.html" class="btn btn-primary fw-semibold rounded-5 px-4">Sign Up</a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <!--jumbotron-->
+    <section id="jumbotron">
+        <div class="container py-5">
+            <div class="p-5 mb-5 jumbotron rounded-5">
+                <div class="row">
+                    <div class="col-12 col-lg-4 py-5 ps-0 ps-lg-5 text-center text-lg-start">
+                        <div id="jumbotron-background">
+                            <div id="layer">
+
+                            </div>
+                        </div>
+                        <h2 class="display-5 fw-bold mb-3">Business Communication Reinvented</h2>
+                        <p class="mb-5">Start communicating with your business team more efficiently with our app.</p>
+                        <a href="#" class="btn btn-outline-primary fw-semibold rounded-5 px-5 me-2">Get the app</a>
+                    </div>
+                    <div class="d-none d-lg-block col-4 ms-5">
+                        <img src="logo/svg/Jumbotron.svg" alt="" class="svg-jumb">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4 py-5 justify-content-between cloud-lock">
+                <div class="col-5">
+                    <div class="row align-items-center text-center text-md-start justify-content-center">
+                        <div class="col-12 col-md-3 mb-3">
+                            <img src="logo/svg/awan.svg" alt="" class="">
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <h5 class="fw-semibold">Cloud based</h5>
+                            <p class="d-none d-md-block">All your messages are always backed up.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-5">
+                    <div class="row align-items-center text-center text-md-start justify-content-center">
+                        <div class="col-12 col-md-3 mb-3">
+                            <img src="logo/svg/kunci.svg" alt="" class="">
+                        </div>
+                        <div class="col-12 col-md-9">
+                            <h5 class="fw-semibold">Secured</h5>
+                            <p class="d-none d-md-block">All your messages are stored very securely.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- product1 -->
+    <section id="product">
+        <div class="container mx-auto ">
+            <div class="row ms-5 mt-5 ">
+                <div class="col-6 rds ">
+                    <div class="row  mx-auto align-items-center" style="margin-top:100px;border-radius: 20px; width: 438px; height: 125px; padding-right: 5px; background-color: #FFFFFF;">
+                        <div class="col-2" style="border-top-left-radius: 20px; border-bottom-left-radius: 20px; z-index: 2;">
+                            <div class="rounded-circle text-center position-relative" style="margin-left: 15px; margin-top:25px; margin-bottom:25px; margin-right: 25px; width: 70px; height:70px; line-height: 70px; background-color: #F2F6FF;">AJ
+                                <span class="rounded-circle position-absolute text-white" style="line-height: 16px; width: 20px; height: 20px; font-size: 7px; background-color: #234CAD; border: 2.5px solid white;">2</span>
+                            </div> 
+                        </div>
+                        <div class="col-8" style="padding-left: 50px;">
+                            <h6 class="" style="color: #234CAD ; font-size: 20px; font-weight: bold ;margin-top:25px; margin-bottom: 3px;">Andrew Johnson</h6>
+                            <p class="" style="color: #234CAD; font-size: 15px; margin-bottom: 25px; margin-right: 25px; width: 100%;">I have seen that you are availabl…</p>
+                        </div>
+                        <div class="col-2 p-0" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+                            <p class="" style="font-size: 12px; padding: 0; color: #234CAD; width: 100%;">10.30 PM</p> 
+                        </div>
+                    </div>
+                    <div class="row mt-4 mx-auto align-items-center" style="padding-left:4px;border-radius: 20px; width: 350px; height: 120px; background-color: #FFFFFF;">
+                        <div class="col-2 " style="z-index: 9999;">
+                            <div class="rounded-circle text-center position-relative" style="width: 60px; height:60px; line-height: 60px; background-color: #F2F6FF;">DL
+                                <span class="rounded-circle position-absolute text-white" style="line-height: 12px; width: 16px ; height: 16px; font-size: 6px; background-color: #234CAD; border: 2px solid #FFFFFF;">1</span>
+                            </div> 
+                        </div>
+                        <div class="col-8  mt-3" style="padding-left: 35px;">
+                            <h6 class="" style="color: #234CAD ; font-size: 16px; font-weight: bold ;">Daniel Luke</h6>
+                            <p class="" style="color: #234CAD; font-size: 12px; width: 100%;">Would you like to have a meetin…</p>
+                        </div>
+                        <div class="col-2 p-0 mb-2" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+                            <p class="" style="font-size: 10px; padding: 0; color: #234CAD; width: 100%;">5:27 AM</p> 
+                        </div>
+                    </div>
+                    
+                    <div class="row mt-4 mx-auto align-items-center" style="padding-left:1px;border-radius: 20px; width: 262px; height: 75px; background-color: #FFFFFF;">
+                        <div class="col-2 " style="z-index: 9999;">
+                            <div class="rounded-circle text-center position-relative" style="width: 45px; height:45px; line-height: 45px; background-color: #F2F6FF; font-size: 13px;">MC
+                                <span class="rounded-circle position-absolute text-white" style="line-height: 10px; width: 12px ; height: 12px; font-size: 4px; background-color: #234CAD; border: 1.5px solid #FFFFFF;">4</span>
+                            </div> 
+                        </div>
+                        <div class="col-8 pe-0" style="padding-left: 25px;">
+                            <h6 class="mt-3 mb-1" style="color: #234CAD ; font-size: 12px; font-weight: bold ;">Mark Clarke</h6>
+                            <p class="" style="color: #234CAD; font-size: 9px; width: 100%;">This was such a busy week. I can…</p>
+                        </div>
+                        <div class="col-2 p-0 mb-2 " style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+                            <p class="" style="font-size: 7px; padding: 0; color: #234CAD; width: 100%;">2:08 AM</p> 
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-6 " style="padding-left: 100px; padding-top: 100px;">
+                    
+                    <h1 class="judul mb-4 ">Use our app to send messages to your team</h1>
+                    <p class="sub ">We offer really easy communications for all businesses from small to large.</p>
+                    <button class="tombol mt-5 " style="border-color: #234CAD;  ">Get the app</button>
+                </div>
+            </div>
+            <!-- end product1 -->
+            <!-- product 2 -->
+            <div class="row text-center">
+                <h1 class="mt-5">Transform your communications</h1>
+                <p class="mx-auto p-transform">Our mobile app is the only thing you need to change the way you communicate with your team</p>
+            </div>
+            <div class="row position-relative mt-5" style="height:  700px; background-color: #F2F6FF; border-radius: 60px;" >
+                
+                <div class="d-flex position-absolute align-items-center bg-transparent" style="height: 150px; top: 6%">
+                    <div class="card justify-content-center align-items-center me-5 " style="margin-top:70px; margin-left: 500px;width: 75px; height: 75px; border: none; border-radius: 20px;">
+                        <img src="logo/file.png" alt="" style="width: 24px; height: 30px; ">
+                    </div>
+                    <div class="row mt-4 align-items-center" style="padding-left:4px;border-radius: 20px; width: 350px; height: 120px; background-color: #FFFFFF;">
+                        <div class="col-2 " style="z-index: 9999;">
+                            <div class="rounded-circle text-center position-relative" style="width: 60px; height:60px; line-height: 60px; background-color: #F2F6FF;">SB
+                                <span class="rounded-circle position-absolute text-white" style="line-height: 12px; width: 16px ; height: 16px; font-size: 6px; background-color: #234CAD; border: 2px solid #FFFFFF;">3</span>
+                            </div> 
+                        </div>
+                        <div class="col-8  mt-3" style="padding-left: 35px;">
+                            <h6 class="" style="color: #234CAD ; font-size: 16px; font-weight: bold ;">Spencer Brooks</h6>
+                            <p class="" style="color: #234CAD; font-size: 12px; width: 100%;">Have you seen the project requi…</p>
+                        </div>
+                        <div class="col-2 p-0 mb-2" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+                            <p class="" style="font-size: 10px; padding: 0; color: #234CAD; width: 100%;">3:08 PM</p> 
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex position-absolute align-items-center bg-transparent" style="height: 150px; top:34%">
+                    
+                    <div class="row align-items-center me-5" style="margin-left: 500px;padding-left:4px;border-radius: 20px; width: 276px; height: 160px; background-color: #FFFFFF;">
+                        <div class="col-2 position-relative" style="z-index: 9999; margin-top:-40px;">
+                            <div class="rounded-circle text-center position-relative" style="width: 60px; height:60px; line-height: 60px; background-color: #F2F6FF;">
+                                <img src="logo/tanggal.png" alt="">
+                            </div> 
+                            <div class="d-flex position-relative mt-3">
+                                <div class="rounded-circle text-center position-absolute" style="margin-left:0px;width: 40px; height:40px; line-height: 40px; background-color: #F2F6FF; z-index: 8; border:2px solid white; color: #234CAD; font-weight: bold; font-size: 10px;">
+                                    Kr
+                                </div> 
+                                <div class="rounded-circle text-center position-absolute" style="margin-left:30px;width: 40px; height:40px; line-height: 40px; background-color: #F2F6FF; border: 2px solid white; z-index: 10; color: #234CAD; font-weight: bold; font-size: 10px;">
+                                    Mj
+                                </div> 
+                                <div class="rounded-circle text-center position-absolute" style="margin-left:60px;width: 40px; height:40px; line-height: 40px; background-color: #F2F6FF; border: 2px solid white; z-index: 12; color: #234CAD; font-weight: bold; font-size: 10px;">
+                                    Oi
+                                </div> 
+                                <div class="rounded-circle text-center position-absolute" style="margin-left:90px;width: 40px; height:40px; line-height: 40px; background-color: #F2F6FF; border: 2px solid white; z-index: 12; color: #234CAD; font-weight: bold; font-size: 10px;">
+                                    +3
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-8" style="padding-left: 35px; margin-top:-30px;">
+                            <h6 class="" style="color: #234CAD ; font-size: 16px; font-weight: bold ;">Sales Meeting</h6>
+                            <p class="" style="color: #234CAD; font-size: 12px; width: 100%;">10:30 AM 05 May 2020</p>
+                            
+                        </div>
+                        
+                    </div>
+                    
+                    
+                    <div class="card" style="width: 350px; height:100px; border-radius: 20px;  border: none;">
+                        <div class="d-flex align-items-center position-relative" style="border-radius: 20px;">
+                            
+                            <div class="rounded-circle position-relative text-center mt-4 ms-3" style="z-index:999;width: 60px; height:60px; line-height: 60px; background-color: #F2F6FF;"><img src="logo/up.png" alt="">
+                                <!-- <img src="logo/Stroke.png" class="position-absolute " alt="" style="top:-10px; left:2"> -->
+                            </div> 
+                            
+                            <div class="mt-3 ms-3">
+                                <h6 class="" style="color: #234CAD ; font-size: 16px; font-weight: bold ; margin-top: 17px;">Uploading Document</h6>
+                                <p class="" style="color: #234CAD; font-size: 12px; width: 100%;">27,09/ 78,93 GB</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div class="d-flex position-absolute align-items-center bg-transparent" style="height: 150px; top: 61%; ">
+                    
+                    <div class="row align-items-center me-5" style="margin-left: 500px;padding-left:4px;border-radius: 20px; width: 350px; height: 120px; background-color: #FFFFFF;">
+                        <div class="col-2 " style="z-index: 9999;">
+                            <div class="rounded-circle text-center position-relative" style="width: 60px; height:60px; line-height: 60px; background-color: #F2F6FF;">AS
+                                <span class="rounded-circle position-absolute text-white" style="line-height: 12px; width: 16px ; height: 16px; font-size: 6px; background-color: #234CAD; border: 2px solid #FFFFFF;">2</span>
+                            </div> 
+                        </div>
+                        <div class="col-8  mt-3" style="padding-left: 35px;">
+                            <h6 class="" style="color: #234CAD ; font-size: 16px; font-weight: bold ;">Amy Smith</h6>
+                            <p class="" style="color: #234CAD; font-size: 12px; width: 100%;">Could please call me now? It is i…</p>
+                        </div>
+                        <div class="col-2 p-0 mb-2" style="border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+                            <p class="" style="font-size: 10px; padding: 0; color: #234CAD; width: 100%;">5:18 PM</p> 
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                
+                
+                
+                
+                <div class="d-flex position-absolute align-items-center bg-transparent" style=" height: 50px; top:80%">
+                    
+                    
+                    <div class="card justify-content-center align-items-center me-5 " style="margin-left:400px;margin-top:-25px; width: 75px; height: 75px; border: none; border-radius: 20px;">
+                        <img src="logo/pesan.png" alt="" style="width: 24px; height: 30px; ">
+                    </div>
+                    
+                </div>
+                <div class="row position-absolute align-items-center " style="background-color: #FFFFFF; height: 160px; width: 130px; top:100%; margin-left: 514px; margin-top: -100px; border-radius: 25px;">
+                    
+                    
+                    <div class="rounded-circle text-center position-relative mx-auto" style="width: 70px; height:70px; line-height: 60px; background-color: #F2F6FF; border: 2px solid #234CAD;">
+                        <img src="logo/up.png" alt="">
+                    </div> 
+                    <h6 class="" style="color: #234CAD ; font-size: 10px; margin-left: 10px;  margin-bottom: 20px;">
+                        6,02/ 7,98 GB</h6>
+                        
+                    </div>
+                    
+                    <div class="d-flex position-absolute align-items-center bg-transparent" style="height: 150px; top:47%; margin-left: 120px;">
+                        
+                        <div class="card" style="width: 350px; height:100px; border-radius: 20px;  border: none;">
+                            <div class="d-flex align-items-center position-relative" style="border-radius: 20px;">
+                                
+                                <div class="rounded-circle position-relative text-center mt-4 ms-3" style="z-index:999;width: 60px; height:60px; line-height: 60px; background-color: #F2F6FF; "><img src="logo/simpan.png" alt="">
+                                </div> 
+                                
+                                <div class="mt-4 ms-2">
+                                    <h6 class="" style="color: #234CAD ; font-size: 16px; font-weight: bold ;">Message Saved</h6>
+                                    <p class="" style="color: #234CAD; font-size: 12px; width: 100%;">You have successfully saved this message</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        
+    </div>
+    </section>
+    <!-- end product 2 -->
+    
+    <section id="about">
+    <div class="container mb-5 text-center text-xl-start">
+        <div class="row p-3 p-md-5 justify-content-around">
+            <div class="col-12 col-xl-5 my-auto p-0 p-xl-5 product">
+                <div class="d-block d-xl-none jumbotron p-5 rounded-5">
+                    <h2 class="display-5 fw-bold mb-3">Increase the efficiency within your company</h2>
+                    <p class="mb-5">Our app is the great way for you to start getting more tasks done.</p>
+                    <a href="#" class="btn btn-outline-primary fw-semibold rounded-5 px-5 me-2">Get the app</a>
+                </div>
+                <div class="d-none d-xl-block">
+                    <h2 class="display-5 fw-bold mb-3">Increase the efficiency within your company</h2>
+                    <p class="mb-5">Our app is the great way for you to start getting more tasks done.</p>
+                    <a href="#" class="btn btn-outline-primary fw-semibold rounded-5 px-5 me-2">Get the app</a>
+                </div>
+            </div>
+            <div class="d-none d-xl-block col-5 p-0 my-auto">
+                <div class="jumbotron rounded-5">
+                    <img src="logo/svg/card.svg" alt="card-content" class="img-fluid product-img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!--pricing-->
+  <section id="pricing">
+    <div class="container mb-5 text-center">
+        <h2 class="display-5 fw-bold mb-3">Explore our simple pricing</h2>
+        <p class="mb-5 d-none d-md-block">We offer one of the most competitive prices on the market for everyone.</p>
+        <div class="row justify-content-center p-3"><div class="col-12 col-lg-3 py-5 mx-auto mx-md-3 my-3 plan-bg" id="">
+            <h2 class="mb-4">Basic</h2>
+            <p class="display-5 fw-bold mb-3 plan">$9</p>
+            <p>Per month</p>
+            <a href="#" class="btn fw-bold rounded-5 px-5 py-3 plan-btn">Learn more</a>
+        </div><div class="col-12 col-lg-3 py-5 mx-auto mx-md-3 my-3 plan-bg">
+            <h2 class="mb-4">Premium</h2><p class="display-5 fw-bold mb-3 plan">$29</p>
+            <p>Per month</p>
+            <a href="#" class="btn fw-bold rounded-5 px-5 py-3 plan-btn">Learn more</a>
+        </div>
+        <div class="col-12 col-lg-3 py-5 mx-auto mx-md-3 my-3 plan-bg" id="">
+            <h2 class="mb-4">Enterprise</h2><p class="display-5 fw-bold mb-3 plan">$129</p>
+            <p>Per month</p>
+            <a href="#" class="btn fw-bold rounded-5 px-5 py-3 plan-btn">Learn more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+  <!--newslater-->
+  <section id="contact">
+    <div class="container mb-5 text-center jumbotron rounded-5 mx-auto p-4">
+      <h2 class="display-5 fw-bold mb-3">Sign up to our newsletter</h2>
+      <p class="mb-5 px-16 px-lg-5 w-50 mx-auto">Receive latest news, updates, discounts and many other things every week.</p>
+      <form class="input">
+        <div class="input-group mb-3">
+          <input type="email" id="contactEmail" class="form-control" placeholder="Enter your email address" >
+          <button type="button" class="btn btn-outline-secondary bg-btn">
+            <i class="kiri">
+                <img src="logo/svg/email.svg" alt="">
+            </i><span class="d-none">send</span>
+        </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  
+  <!--footer-->
+  <footer id="footer">
+    <div class="container text-center text-md-start mb-5">
+        <div class="row footer-list">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <h2 class="display-5 fw-bold mb-3">Kelompok4.hacktiv8</h2>
+                <p>© 2022 - All rights reserved</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h2 class="display-5 fw-bold mb-3">Product</h2>
+                <p>Benefit</p>
+                <p>Feedback</p>
+                <p>Featur</p>
+            </div>
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h2 class="display-5 fw-bold mb-3">About</h2>
+                <p>Company</p>
+                <p>Team</p>
+            </div><div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                <h2 class="display-5 fw-bold mb-3">Suport</h2>
+                <p>Get help</p>
+                <p>Term of service</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <!-- Section: Links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
